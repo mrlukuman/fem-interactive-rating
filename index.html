@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/dist/styles.css" />
   </head>
   <body>
-    <div>
+    <div class="main">
       <div class="star-image">
         <img src="./images/icon-star.svg" alt="star" />
       </div>
@@ -17,6 +17,28 @@
         Please let us know how we did with your support request. All feedback is
         appreclated to help us improve our offering!
       </p>
+
+      <div class="ratings">
+        <button class="button rating-number">1</button>
+        <button class="button rating-number">2</button>
+        <button class="button rating-number">3</button>
+        <button class="button rating-number">4</button>
+        <button class="button rating-number">5</button>
+      </div>
+
+      <button class="submit" type="submit">SUBMIT</button>
     </div>
+
+    <div class="thank-you display-none">
+      <img src="./images/illustration-thank-you.svg" alt="" />
+      <p class="rating-choice">You submitted your rating</p>
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
